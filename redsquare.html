@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Red Square - Discover Russia</title>
+<link rel="icon" href="favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --red:#b30000;
+  --gold:#d4af37;
+  --bg:#fff7f5;
+  --text:#222;
+  --muted:#5b5b5b;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;background:var(--bg);color:var(--text)}
+.sidebar{position:fixed;left:0;top:0;bottom:0;width:260px;background:linear-gradient(180deg,var(--red),#8b0000);color:white;padding:28px 18px;display:flex;flex-direction:column;align-items:flex-start}
+.logo{font-size:20px;font-weight:700;color:var(--gold);margin-bottom:14px}
+.nav a{display:block;color:white;text-decoration:none;padding:10px 6px;border-radius:6px;margin:6px 0}
+.nav a:hover{background:rgba(255,255,255,0.06)}
+.header-cta{margin-top:auto;font-size:12px;opacity:0.9}
+.container{margin-left:280px;padding:40px;max-width:980px}
+.hero{background:linear-gradient(90deg, rgba(179,0,0,0.06), rgba(212,175,55,0.03));padding:28px;border-radius:10px;border-left:6px solid var(--gold)}
+h1{margin:0;font-size:32px;color:var(--red)}
+h2{color:var(--red);margin-top:18px}
+.section{margin-top:20px;padding:18px;background:white;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:12px}
+.card{padding:12px;border-radius:8px;border:1px solid #eee;background:linear-gradient(180deg,#fff,#fffefc)}
+.callout{background:linear-gradient(90deg, rgba(211,175,55,0.06), rgba(179,0,0,0.02));padding:10px;border-radius:8px;border-left:4px solid var(--gold);margin-top:12px}
+.footer{margin-top:20px;color:var(--muted);font-size:13px}
+@media(max-width:800px){
+  .sidebar{position:relative;width:100%;display:flex;flex-direction:row;align-items:center;gap:12px;padding:12px}
+  .container{margin-left:0;padding:20px}
+}
+</style>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo">Discover Russia</div>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="ballet.html">Russian Ballet</a>
+      <a href="hockey.html">Ice Hockey</a>
+      <a href="redsquare.html">Red Square</a>
+      <a href="about.html">About</a>
+    </div>
+    <div class="header-cta">Students Media Project · 2025</div>
+  </aside>
+  <main class="container">
+    
+<section class="section">
+  <h1>Red Square</h1>
+  <p>Red Square is the symbolic heart of Moscow — a space where history, architecture and public life meet.</p>
+  <h2>Key Landmarks</h2>
+  <ul>
+    <li>Saint Basil's Cathedral</li>
+    <li>Kremlin Walls & Spasskaya Tower</li>
+    <li>GUM Department Store</li>
+  </ul>
+  <div class="callout">Suggested embed: 3D virtual tour (Google Earth / Yandex) for immersive exploration.</div>
+</section>
+
+    <div class="footer">© 2025 Discover Russia · Created by: Ван Идань · Сайиньцзия · ЧжаоТэн</div>
+  </main>
+</body>
+</html>
